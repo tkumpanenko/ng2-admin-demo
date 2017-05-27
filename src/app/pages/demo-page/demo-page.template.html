@@ -1,8 +1,25 @@
-<div class="card">
-	<tabset>
-		<tab heading='Tab 1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur, assumenda doloribus error expedita id illo labore laudantium magnam numquam perferendis quia reiciendis, sapiente ullam voluptates. Excepturi nulla quia saepe.</tab>
-		<tab heading='Tab 2'>Tab 2 content</tab>
-		<tab heading='Tab 3'>Tab 2 content</tab>
-	</tabset>
+<div class="row">
+	<div class="col-md-6">
+		<div class="card">
+			<tabset>
+				<tab heading='Tab 1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur, assumenda doloribus error expedita id illo labore laudantium magnam numquam perferendis quia reiciendis, sapiente ullam voluptates. Excepturi nulla quia saepe.</tab>
+				<tab heading='Tab 2'>Tab 2 content</tab>
+				<tab heading='Tab 3'>Tab 2 content</tab>
+			</tabset>
+		</div>
+
+	</div>
+	<div class="col-md-6">
+		<div class="card">
+			<ba-chartist-chart baChartistChartClass="ct-chart"
+				baChartistChartType="Line"
+				[baChartistChartData]="data['areaLineData']"
+				[baChartistChartOptions]="data['areaLineOptions']">
+			</ba-chartist-chart>
+
+		</div>
+	</div>
+
 </div>
+
 
