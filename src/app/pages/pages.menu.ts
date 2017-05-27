@@ -15,6 +15,17 @@ export const PAGES_MENU = [
         }
       },
       {
+        path: 'demo-page',
+        data: {
+          menu: {
+            title: 'Demo page',
+            selected: false,
+            expanded: false,
+            order: 50
+          }
+        }
+      },
+      {
         path: 'editors',
         data: {
           menu: {
